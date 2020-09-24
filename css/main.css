@@ -142,6 +142,7 @@ a {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   font-weight: 500;
   color: #757575;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -276,8 +277,8 @@ a {
   color: #212121;
   font-size: 14px;
   line-height: 1.14;
-  font-weight: 700;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -289,6 +290,7 @@ a {
   margin: 0px;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   font-weight: 400;
   letter-spacing: 0.03em;
 }
@@ -474,8 +476,8 @@ a {
   color: #212121;
   font-size: 36px;
   line-height: 1.16;
-  font-weight: 700;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -580,6 +582,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 .footer__list-link {
@@ -588,6 +591,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-weight: 400;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -774,8 +778,8 @@ a {
   margin-bottom: 12px;
   font-size: 20px;
   line-height: 1.15;
-  font-weight: 700;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: center;
   color: #212121;
 }
@@ -819,6 +823,7 @@ a {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
+  font-weight: 400;
   color: #757575;
   margin-bottom: 4px;
 }
@@ -865,6 +870,7 @@ a {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
+  font-weight: 400;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -900,6 +906,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 .checkbox__agreement {
@@ -909,6 +916,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 .form__button {
@@ -961,12 +969,8 @@ a {
   color: #212121;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   font-weight: 500;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 700;
-  letter-spacing: 0.03em;
   text-align: center;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
