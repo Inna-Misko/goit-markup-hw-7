@@ -1,0 +1,42 @@
+.contacts__item:first-child {
+  margin-right: 50px;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+   font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  color: $main-color;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+  color: $accent-color;
+}
+
+&:hover .contacts__adress,
+&:focus .contacts__adress {
+  fill: $accent-color;
+}
+
+}
+.contacts__adress {
+  margin-right: 10px;
+  fill: $main-color;
+  width: 16px;
+  height: 12px;
+  align-items: center;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&--phone {
+  width: 10px;
+  height: 16px;
+}
+}

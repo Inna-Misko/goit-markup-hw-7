@@ -1,0 +1,42 @@
+.checkbox {
+  margin-bottom: 30px;
+
+&__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+&__icon {
+  display: inline-block;
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid $black;
+  border-radius: 2px;
+}
+
+&__input:checked + &__icon {
+  background: $accent-color;
+  border: 2px solid $accent-color;
+  background-image: url(../img/icons/icon-check.svg);
+  background-size: contain;
+  background-origin: border-box;
+}
+
+&__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+&__agreement {
+  font-family: Roboto;
+  text-decoration: underline;
+  color: $accent-color;
+   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+}
+}
