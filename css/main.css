@@ -37,6 +37,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   font-weight: 700;
 }
 
@@ -54,8 +55,9 @@ a {
   margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  font-weight: 700;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -107,8 +109,9 @@ a {
   padding-bottom: 32px;
   color: #212121;
   font-size: 14px;
-  font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: 500;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -196,8 +199,8 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  font-weight: 900;
   letter-spacing: 0.06em;
+  font-weight: 900;
   text-align: center;
   text-transform: uppercase;
 }
@@ -213,9 +216,9 @@ a {
   font-family: "Roboto", sans-serif;
   background-color: #2196f3;
   font-size: 16px;
-  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: center;
   background: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -304,9 +307,9 @@ a {
   margin-bottom: 50px;
   color: #212121;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -330,9 +333,9 @@ a {
   margin: 0px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -364,8 +367,8 @@ a {
   color: #212121;
   font-size: 36px;
   line-height: 1.16;
-  font-weight: 700;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -398,9 +401,9 @@ a {
   margin-top: 30px;
   color: #212121;
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -410,6 +413,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -606,8 +610,8 @@ a {
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.14;
-  font-weight: 700;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -673,9 +677,9 @@ a {
   margin-bottom: 10px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -932,8 +936,8 @@ a {
   height: 50px;
   font-size: 16px;
   line-height: 1.87;
-  font-weight: 700;
   letter-spacing: 0.06em;
+  font-weight: 700;
   color: #ffffff;
   outline: transparent;
 }
@@ -1042,9 +1046,9 @@ a {
   padding-left: 24px;
   color: #212121;
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -1081,13 +1085,14 @@ a {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 .portfolio__dicription {
   padding-left: 24px;
   font-size: 16px;
   line-height: 1.62;
-  font-weight: 500;
   letter-spacing: 0.03em;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */

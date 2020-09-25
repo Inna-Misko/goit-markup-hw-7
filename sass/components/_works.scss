@@ -7,10 +7,7 @@
   margin-bottom: 50px;
 
   color: $dark-color;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  @include font(36px,1.16,700);
   text-align: center;
 }
 
@@ -34,10 +31,7 @@
     &__text {
     margin: 0px;
     font-family: Roboto;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(14px,1.14,700);
     text-align: center;
     text-transform: uppercase;
     color: $white;

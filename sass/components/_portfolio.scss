@@ -43,10 +43,7 @@
 &__title {
   padding-left: 24px;
   color: $dark-color;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(18px,2,700,0.06em);
   text-decoration: none;
 }
 
@@ -76,16 +73,11 @@
 &__text {
   margin: 0px;
   color: $white;
-  font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
+  @include font(18px,1.5,400);
 }
 
 &__dicription {
   padding-left: 24px;
-  font-size: 16px;
-  line-height: 1.62;
-  font-weight: 500;
-  letter-spacing: 0.03em;
+  @include font(16px,1.62,500);
 }
 }

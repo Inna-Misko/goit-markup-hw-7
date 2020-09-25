@@ -3,10 +3,7 @@
   margin-bottom: 20px;
 
   font-family: Roboto;
-   font-size: 14px;
-  line-height: 1.14;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  @include font(14px,1.14,700);
   text-transform: uppercase;
   color: $white;
 }
